@@ -1,0 +1,38 @@
+# ==========================================
+# 1. Foldere generate de compilator și CMake
+# ==========================================
+build/
+out/
+bin/
+.cmake/
+CMakeFiles/
+_deps/
+deps/
+
+# ==========================================
+# 2. Fișiere cache și configurări CMake
+# ==========================================
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# ==========================================
+# 3. Executabile și fișiere binare (programe)
+# ==========================================
+*.exe
+*.bin
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# ==========================================
+# 4. Fișiere specifice IDE-urilor (VS Code / VS)
+# ==========================================
+.vscode/
+.vs/
+*.user
+*.suo
